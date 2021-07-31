@@ -17,6 +17,7 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
     this.getBlogs();
+    this.loading = true
   }
 
   private getBlogs(): void {
